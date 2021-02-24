@@ -58,6 +58,7 @@ const StyledNav = styled.nav`
     }
     @media(max-width:1300px){
         flex-direction:column;
+        overflow-x:hidden;
         padding: 2rem 1rem;
         #logo{
             display:inline-block;
